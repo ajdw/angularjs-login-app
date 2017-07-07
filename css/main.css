@@ -1,0 +1,108 @@
+body {
+	text-align: center;
+	background-color: #e6e6ff; 
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+input:first-child, input:nth-child(3) {
+	height: 30px;
+	width: 20%;
+	background: white;
+	color: black;
+	font-size: 120%;
+	margin-top: 20px;
+}
+
+input:last-child {
+	margin-top: 20px;
+	color: white;
+	background-color: blue;
+	font-size: 120%;
+	width: 5%;
+	padding: 10px;
+	border: solid 1px blue;
+	cursor: pointer;
+}
+
+input[type=text], input[type=password]
+{
+    font-size: 40px; 
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    height: 75px;
+}
+
+li {
+	text-decoration: none;
+	font-style: none;
+	list-style: none;
+	font-size: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 200%;
+	padding-top: 20px;
+}
+
+input[type=submit] {
+	height: 120px;
+	font-size: 200%;
+	width: 20%;
+	
+}
+
+#login-button {
+	width: 20%;
+	height: 10%;
+    font-size: 200%;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#register-button {
+	width: 20%;
+	height: 10%;
+	font-size: 200%;
+	margin-top: 50px;
+	background-color: green;
+	border: green;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#comment-button {
+	width: 18%;
+	font-size: 150%;
+	height: 150%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ng-binding {
+	font-size: 170%;
+}
+
+#remove-button {
+	width: 25%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: red;
+	font-size: 150%;
+	padding: 10px;
+	border: solid 1px red;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+	font-size: 40px;
+}
+
+h2 {
+	text-decoration: underline;
+}

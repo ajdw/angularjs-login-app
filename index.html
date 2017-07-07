@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html ng-app="multiPageApp">
+	<!-- We define the angular app in html, everything nested in it is affected -->
+	<head>
+		<meta charset="utf-8">
+		<title>Login Angular App</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	</head>
+	<br>
+	<body ng-app="myApp" ng-controller="mainCtrl">
+		<h1>AngularJS Login App</h1>
+		
+	<!-- First Controller JS being used -->
+	<div ng-controller="mainCtrl">
+
+	<!-- Register -->
+		<form ng-submit = "register()">
+			<input type="text" id="nemail" placeholder="Email" ng-model="nemail" name="nemail">
+				<br>
+			<input type="password" id="npassword" placeholder="Password" ng-model="npassword" name="npassword">
+				<br>
+			<input id="register-button" type="submit" value="Register">
+		</form>
+		<br>
+		<br>
+
+	<!-- Login Input Fields -->
+		<form ng-submit = "login()">
+			<input type="text" id="email" placeholder="Email" ng-model="email" name="email">
+				<br>
+			<input type="password" id="password" placeholder="Password" ng-model="password" name="password">
+				<br>
+			<input id="login-button" type="submit" value="Sign in">
+		</form>
+	</div>
+
+
+
+<!-- 	<ul>
+	<li ng-repeat="person in people">{{person.name}} , {{person.password}}</li>
+	</ul>
+	 -->
+
+		<!-- JS Angular CDN -->
+		<script src="https://code.angularjs.org/1.6.1/angular.js"></script>
+		<!-- JS internal file -->
+		<script src="js/app.js"></script>
+		<!-- JS Angular Controller -->
+		<script src="js/controllers/mainCtrl.js"></script>
+		<!-- JS Angular Controller 2 -->
+		<script src="js/controllers/secondCtrl.js"></script>
+		<script src="js/controllers/loginCtrl.js"></script>
+		<!-- JS Angular Route Script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+	</body>
+</html>
